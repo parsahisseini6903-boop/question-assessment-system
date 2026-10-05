@@ -1,0 +1,9 @@
+{
+  "name":"question-assessment-system",
+  "version":"1.0.0",
+  "private":true,
+  "type":"module",
+  "engines":{"node":">=24"},
+  "scripts":{"dev":"node server.js","start":"node server.js"},
+  "dependencies":{"@vercel/node":"latest","express":"latest","multer":"latest","openai":"latest","pdf-parse":"latest","mammoth":"latest","cors":"latest"}
+}
